@@ -35,8 +35,9 @@ export default function Page() {
             width={1000}
             height={760}
             className='hidden md:block'
+            alt='imagem da dashboard'
           />
-          <Image src='/hero-mobile.png' width={560} height={620} className='block md:hidden' />
+          <Image src='/hero-mobile.png' width={560} height={620} className='block md:hidden' alt='Imagem da dashboard' />
         </div>
       </div>
     </main>
